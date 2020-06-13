@@ -7,7 +7,7 @@ This homebrew for the Wii U is a UsendMii client application.
 The button states from the Wii U GamePad and the Wii Remotes will be sent to the server. This mod makes the gamepad not display anything while running, to prevent screen burn-in and be less annoying.
 
 ## How to use
-Download the server for UsendMii [here](https://wiiubrew.org/wiki/UsendMii), then configure it. Run the client, put the IP in, then profit.
+Download the server for UsendMii [here](https://wiiubrew.org/wiki/UsendMii), then configure it. Run the client, put the IP in, then profit. I suggest reading the article to see what UsendMii can do.
 
 ## Build
 
