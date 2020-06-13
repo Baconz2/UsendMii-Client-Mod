@@ -147,29 +147,9 @@ int main(int argc, char **argv)
     // Initialize the UDP connection
     udp_init(IP_ADDRESS, Port);
 
-    // Output the IP address
-    // char * msg_connected = (char*)malloc(255);
-    // snprintf(msg_connected, 255, "Connected to %s:%d", IP_ADDRESS, Port);
-
     // Clear the screen
     OSScreenClearBufferEx(SCREEN_TV, 0x000000FF);
     OSScreenClearBufferEx(SCREEN_DRC, 0x000000FF);
-
-    // print to TV
-    // PrintHeader(SCREEN_TV);
-    // OSScreenPutFontEx(SCREEN_TV, 0, 5, msg_connected);
-    // OSScreenPutFontEx(SCREEN_TV, 0, 7, "Remember the program will not work without");
-    // OSScreenPutFontEx(SCREEN_TV, 0, 8, "UsendMii 0.7.0 running on your computer.");
-    // OSScreenPutFontEx(SCREEN_TV, 0, 9, "You can get UsendMii from http://wiiubrew.org/wiki/UsendMii");
-    // OSScreenPutFontEx(SCREEN_TV, 0, 16, "Hold the HOME button to exit.");
-
-    // print to DRC
-    // PrintHeader(SCREEN_DRC);
-    // OSScreenPutFontEx(SCREEN_DRC, 0, 5, msg_connected);
-    // OSScreenPutFontEx(SCREEN_DRC, 0, 7, "Remember the program will not work without");
-    // OSScreenPutFontEx(SCREEN_DRC, 0, 8, "UsendMii 0.7.0 running on your computer.");
-    // OSScreenPutFontEx(SCREEN_DRC, 0, 9, "You can get UsendMii from http://wiiubrew.org/wiki/UsendMii");
-    // OSScreenPutFontEx(SCREEN_DRC, 0, 16, "Hold the HOME button to exit.");
 
     // Flip buffers
     DCFlushRange(ScreenBuffer0, sBufferSizeTV);
